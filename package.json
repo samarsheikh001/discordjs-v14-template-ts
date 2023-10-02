@@ -6,7 +6,8 @@
     "scripts": {
         "start": "cls && node build/index.js",
         "build": "tsc",
-        "dev": "tsc && cls && node build/index.js"
+        "dev": "tsc && cls && node build/index.js",
+        "deploy": "tsc && node build/index.js"
     },
     "keywords": [],
     "author": "MericcaN41",
